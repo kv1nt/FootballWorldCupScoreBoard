@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FootballScore", "FootballScore\FootballScore.csproj", "{402A4A5E-AB9F-4769-823F-107C955FABD5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FootballScore", "FootballScore\FootballScore.csproj", "{402A4A5E-AB9F-4769-823F-107C955FABD5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FootballCupScoreService", "FootballCupScoreService\FootballCupScoreService.csproj", "{3F7D438D-C5DB-426D-9FA2-98FBAA42F833}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FotballScore.Tests", "FotballScore.Tests\FotballScore.Tests.csproj", "{0382CDC7-D47D-4409-9169-1969E1345AD0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{402A4A5E-AB9F-4769-823F-107C955FABD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{402A4A5E-AB9F-4769-823F-107C955FABD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{402A4A5E-AB9F-4769-823F-107C955FABD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F7D438D-C5DB-426D-9FA2-98FBAA42F833}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F7D438D-C5DB-426D-9FA2-98FBAA42F833}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F7D438D-C5DB-426D-9FA2-98FBAA42F833}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F7D438D-C5DB-426D-9FA2-98FBAA42F833}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0382CDC7-D47D-4409-9169-1969E1345AD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0382CDC7-D47D-4409-9169-1969E1345AD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0382CDC7-D47D-4409-9169-1969E1345AD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0382CDC7-D47D-4409-9169-1969E1345AD0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
